@@ -10,37 +10,42 @@ body{
     grid-template-areas: 
     "grida gridb gridc"
     "gridd gride gridf";
-    margin: 150px 0px 0px 290px;
+    margin: 0px 0px 0px 290px;
 }
 .container{
     margin: 0px 0px 0px 0px;
 }
 .grid1{
     grid-area: "grida";
-
+    margin-top: 60px;
 }
 .grid2{
     grid-area: "gridb";
+    margin-top: 60px;
 }
 .grid3{
     grid-area: "gridc";
+    margin-top: 60px;
 
 }
 .grid4{
     grid-area: "gridd";
+    margin-top: 60px;
 }
 .grid5{
     grid-area: "gride";
+    margin-top: 60px;
 
 }
 .grid6{
     grid-area: "gridf";
+    margin-top: 60px;
 }
 .competences{
     font-size: 40px;
     font-family: 'Roboto', sans-serif;
     color: black;  
-    margin: 22px 0px 0px 360px;
+    margin: 22px 0px 50px 360px;
 }
 .travaux{
     font-size: 40px;
@@ -71,6 +76,7 @@ body{
 
 .section{
     min-height: 100vh;
+    max-height: 100vh;
 }
 .a{
     background-color: white;
