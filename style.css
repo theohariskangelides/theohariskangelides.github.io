@@ -3,11 +3,50 @@ body{
     font-family: 'Poppins', sans-serif;
 
 }
+.tableau{
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    grid-template-rows: 200px 200px;
+    grid-template-areas: 
+    "grida gridb gridc"
+    "gridd gride gridf";
+    margin: 150px 0px 0px 290px;
+}
+.container{
+    margin: 0px 0px 0px 0px;
+}
+.grid1{
+    grid-area: "grida";
+
+}
+.grid2{
+    grid-area: "gridb";
+}
+.grid3{
+    grid-area: "gridc";
+
+}
+.grid4{
+    grid-area: "gridd";
+}
+.grid5{
+    grid-area: "gride";
+
+}
+.grid6{
+    grid-area: "gridf";
+}
+.competences{
+    font-size: 40px;
+    font-family: 'Roboto', sans-serif;
+    color: black;  
+    margin: 22px 0px 0px 360px;
+}
 .travaux{
     font-size: 40px;
     font-family: 'Roboto', sans-serif;
     color: black;  
-    margin: 200px 0px 30px 130px;
+    margin: 200px 0px 30px 120px;
 }
 .parent_travaux{
     height: 10%;
@@ -133,5 +172,6 @@ body{
     height: 90%;
     width: 100%;
     display: flex;
-
+    align-items: center;
+    justify-content: center;
 }
