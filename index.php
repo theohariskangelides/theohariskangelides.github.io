@@ -41,9 +41,9 @@
                         <div class="carredecoratif"></div>
                         <p class="texte_present">
                             Bonjour, je m'appelle Théoharis Kangelides, j'ai 18 ans, et je réalise mes
-                            études a l'IUT de mulhouse en DUT Métiers du Multimédia et de l'internet. <br> <br> Au cours
+                            études a l'IUT de Mulhouse en DUT Métiers du Multimédia et de l'internet. <br> <br> Au cours
                             de cette année, j'ai développé un
-                            certain intérêt pour le developpement web. Je suis aussi adepte de l'utilisation des
+                            certain intérêt pour le développement web. Je suis aussi adepte de l'utilisation des
                             logiciels de la
                             suite adobe, en particulier Photoshop et After effects. <br> <br>
                             En dehors de ça, je suis un passionné de musique, je joue de la guitare et je fait de la
@@ -108,7 +108,10 @@
         </div>
         <div class="section c">
             <div class="titre_contact"> Contact :</div>
-            <div class="contact"></div>
+            <div class="contact">
+                
+
+            </div>
         </div>
     </div>
     <script type="text/javascript">
