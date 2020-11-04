@@ -19,11 +19,11 @@
 
 </head>
 
-<body>
-
+<body onclick=moveCible(event)>
+    <div id=Cible></div>
     <div id="fullpage">
         <!-- PREMIERE PAGE -->
-
+        <div id=Cible></div>
         <div class="section a">
             <div style="height: 100%;">
                 <div class="headertop">
@@ -131,6 +131,16 @@
         new fullpage('#fullpage', {
             scrollingSpeed: 1000,
         });
+        
+    </script>
+    <script>
+        function moveCible(event){
+            var e = document.getElementById("Cible");
+            e.style.transform = "translate("+event.clientX+"px, "+event.clientY+"px)";
+            e.classList.remove("anim_Cible");
+            e.offsetWidth;
+            e.classList.add("anim_Cible");
+        }
     </script>
 </body>
 
